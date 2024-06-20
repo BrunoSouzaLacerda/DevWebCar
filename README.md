@@ -41,7 +41,7 @@ Parâmetros:
     "valor": 10000
   }
   
-5. Atualizar Carro
+6. Atualizar Carro
 Endpoint: /carros/{id}
 Método: PUT
 Descrição: Atualiza as informações de um carro específico.
@@ -55,7 +55,7 @@ Parâmetros:
     "valor": 10000
   }
 
-6. Deletar Carro
+7. Deletar Carro
 Endpoint: /carros/{id}
 Método: DELETE
 Descrição: Remove um carro específico.
