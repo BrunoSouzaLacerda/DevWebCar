@@ -1,0 +1,96 @@
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0,0,0,0.1);
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+.modal-overlay .modal-body {
+    background-color: white;
+    padding: 24px;
+    width: 60%;
+    border-radius: 24px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.superior{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.superior i{
+    cursor: pointer;
+}
+.modal-overlay .modal-body h2 {
+    font-size: 32px;
+    color: #000;
+}
+
+
+
+.modal-overlay .modal-body input {
+    padding: 12px;
+    border: 2px solid #c6c5c5c5;
+    color: #00000060;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius: 12px;
+    width: 100%;
+    background-color: #00000010;
+
+    margin-bottom: 12px;
+}
+
+.modal-overlay .modal-body label {
+    color: #242424;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.modal-overlay .modal-body .btn-secundario {
+    position: initial;
+    width: 100%;
+}
+
+.btn-secundario{
+    background-color: #314A73;
+    color: #fff;
+    border: solid 1px #314A73;
+
+}
+.btn-secundario:hover{
+    background-color: #fff;
+    color:#314A73;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+}
+.input-container label{
+    font-style: italic;
+}
+#excluir{
+    background-color: #00000000;
+    color: #314A73;
+    border: solid 1px #314A73;
+}
+#excluir:hover{
+    background-color: #314A73;
+    color: #fff;
+}
